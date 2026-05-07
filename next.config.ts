@@ -9,8 +9,8 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   ...(isProd && {
-    basePath: '/tone-clock',
-    assetPrefix: '/tone-clock/',
+    basePath: '/tone_clock',
+    assetPrefix: '/tone_clock/',
   }),
 };
 
